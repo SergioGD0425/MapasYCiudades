@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+
+html {
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto 30%;
+    grid-template-rows: 1fr 1fr;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+}
+
+
+header {
+    display: flex;
+    background-color: royalblue;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.graficos {
+    grid-column: 1 / 2 span;
+    grid-row: 2/2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: solid 1px royalblue;
+}
+#graficoPaises{
+    flex: 1;
+    display: flex;
+}
+#graficoTiempo{
+    flex: 1;
+    display: flex;
+}
+
+#mapid {
+    grid-column: 2 / 2;
+    grid-row: 1/1;
+    margin: 0;
+}
+
+#cuestiones {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / 1;
+    grid-row: 1/1;
+
+}
+
+
+#controlador {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightskyblue;
+}
+
+button {
+    color: royalblue;
+    background-color: gainsboro;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: royalblue;
+    outline: 0;
+}
+
+#timeText {
+    color: royalblue;
+    font-weight: bold;
+}
+
+#paises {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+    border-top: dotted 2px royalblue;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+#ciudades {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+    flex-wrap: wrap;
+
+}
+
+.contenedor {
+    margin: 10px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px royalblue;
+}
+
+.textoPreguntas {
+    align-self: flex-start;
+    border-bottom: solid 2px royalblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.textoCiudades {
+    border: solid 2px royalblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 10px;
+}
+
+.droppContainer {
+    height: 70%;
+}
+
+.correcto {
+    background-color: powderblue;
+}

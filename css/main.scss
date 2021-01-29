@@ -1,0 +1,43 @@
+@import "juego.scss";
+@import "mapa.scss";
+@import "graficos.scss";
+
+$blue: royalblue;
+
+* {
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+
+html {
+  height: 100%;
+}
+
+main {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto 30%;
+  grid-template-rows: 1fr 1fr;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+}
+
+
+header {
+  display: flex;
+  background-color: $blue;
+
+  h1 {
+    color: white;
+  }
+
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}

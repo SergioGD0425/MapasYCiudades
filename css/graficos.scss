@@ -1,0 +1,17 @@
+.graficos {
+    grid-column: 1 / 2 span;
+    grid-row: 2/2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: solid 1px royalblue;
+}
+#graficoPaises{
+    flex: 1;
+    display: flex;
+}
+#graficoTiempo{
+    flex: 1;
+    display: flex;
+}

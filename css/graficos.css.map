@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,WAAW,EAAE,UAAU;EACvB,QAAQ,EAAE,GAAG;EACb,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,aAAa;EAC9B,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,mBAAmB;CAClC;;AACD,AAAA,cAAc,CAAA;EACV,IAAI,EAAE,CAAC;EACP,OAAO,EAAE,IAAI;CAChB;;AACD,AAAA,cAAc,CAAA;EACV,IAAI,EAAE,CAAC;EACP,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "graficos.scss"
+    ],
+    "names": [],
+    "file": "graficos.css"
+}

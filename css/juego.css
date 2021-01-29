@@ -1,0 +1,137 @@
+#cuestiones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-grid-column: 1;
+  grid-column: 1 / 1;
+  -ms-grid-row: 1;
+  grid-row: 1/1;
+}
+
+#controlador {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: lightskyblue;
+}
+
+button {
+  color: royalblue;
+  background-color: gainsboro;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: royalblue;
+  outline: 0;
+}
+
+button:hover {
+  background-color: #bdbdbd;
+}
+
+button:active {
+  background-color: #8592bb;
+}
+
+button:disabled {
+  background-color: #d8d8d8;
+  border-color: #a5a4a4;
+  color: #a5a4a4;
+}
+
+#timeText {
+  color: royalblue;
+  font-weight: bold;
+}
+
+#paises {
+  border-top: dotted 2px royalblue;
+  overflow-wrap: break-word;
+}
+
+#ciudades, #paises {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contenedor {
+  margin: 10px;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: solid 2px royalblue;
+  border-radius: 8px;
+}
+
+.textoPreguntas {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  border-bottom: solid 2px royalblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: #bde4fd;
+  color: royalblue;
+}
+
+.textoCiudades {
+  border-radius: 8px;
+  border: solid 2px royalblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin: 10px;
+  background-color: #bde4fd;
+  color: royalblue;
+  font-weight: bold;
+}
+
+.textoCiudades:hover {
+  cursor: pointer;
+}
+
+.droppContainer {
+  height: 70%;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.correcto {
+  background-color: powderblue;
+}
+/*# sourceMappingURL=juego.css.map */

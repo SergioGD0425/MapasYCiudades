@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Ciudades y países</h1>
+    </header>
+    <main>
+        <div id="cuestiones">
+
+            <section id="controlador">
+                <button id="newGame">Nueva partida</button>
+                <label id="timeText">Tiempo: 0s</label>
+            </section>
+            <div id="ciudades"></div>
+            <div id="paises"></div>
+
+        </div>
+        <section id="mapid">
+        </section>
+        <section class="graficos">
+            <div id="graficoTiempo"></div>
+            <div id="graficoPaises"></div>
+        </section>
+    </main>
+
+
+
+
+
+    <template id="ciudadTemplate">
+        <label class="textoCiudades" data-value=""></label>
+    </template>
+
+    <template id="paisTemplate">
+        <div class="contenedor">
+            <label class="textoPreguntas"></label>
+            <div class="droppContainer" data-value=""></div>
+        </div>
+    </template>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <script src="./js/script.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</body>
+
+</html>
